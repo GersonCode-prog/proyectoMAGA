@@ -67,7 +67,7 @@ class PersonaComponent extends Component
                 'dpi'=>$datos['dpi'],
                 'genero'=>$datos['genero'],
                 'fechaNacimiento'=>$datos['fechaNacimiento'],
-                'tipoPersona_id'=>17,
+                'tipoPersona_id'=>1,
                 'comunidad_id'=>$datos['comunidad_id'],
                 'user_id'=>auth()->id(),
                 'activo'=>'si'
