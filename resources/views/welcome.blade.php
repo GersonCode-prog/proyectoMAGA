@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <link rel="shortcut icon" href="vistas/img/maaga.ico" type="image/x-icon">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>MAGA</title>
+
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -39,7 +41,7 @@
                 </div>
                 <div class="flex justify-center text-center">
                     <div>
-                        <h1>Sistema para el Control de Capacitaciones a traves de diferentes Caderes en Municipio de Guazacapan, Santa Rosa</h1>
+                        <h1>Sistema para el Control de Capacitaciones a traves de diferentes CADER en Municipio de Guazacapan, Santa Rosa</h1>
                     </div>
                     
                 </div>
