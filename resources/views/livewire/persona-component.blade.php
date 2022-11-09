@@ -77,22 +77,22 @@
           @foreach ($personas as $p )
             
           <tr class="bg-white border-b  border-gray-700">
-            <td class="py-4 px-6">{{$p->id}}</td>
-            <td class="py-4 px-6">{{$p->nombres}} {{$p->apellidos}}</td>
-            <td class="py-4 px-6">{{$p->telefono}}</td>
-            <td class="py-4 px-6">{{$p->dpi}}</td>
-            <td class="py-4 px-6">{{$p->genero}}</td>
-            <td class="py-4 px-6">{{$p->fechaNacimiento}}</td>
+            <td class="py-4 px-2">{{$p->id}}</td>
+            <td class="py-4 px-2">{{$p->nombres}} {{$p->apellidos}}</td>
+            <td class="py-4 px-2">{{$p->telefono}}</td>
+            <td class="py-4 px-2">{{$p->dpi}}</td>
+            <td class="py-4 px-2">{{$p->genero}}</td>
+            <td class="py-4 px-2">{{$p->fechaNacimiento}}</td>
 
 
 
-            <td class="py-4 px-6 flex gap-2 ">
+            <td class="py-4 px-2 flex gap-2 ">
               <div class="flex p-2">
                 <div class=" ">
                   <button wire:click="Editar({{$p->id}})" class="bg-yellow-300 p-1 rounded-l" >Editar</button>
                 </div>
                 <div>
-                  <button wire:click="Eliminar({{$p->id}})" class="bg-red-600 text-white p-1 rounded-l ml-2" >Eliminar</button>
+                  <button wire:click="Eliminar({{$p->id}})" class="bg-red-200 text-white p-1 rounded-l ml-2" >Eliminar</button>
                 </div>
               </div>
             </td>
