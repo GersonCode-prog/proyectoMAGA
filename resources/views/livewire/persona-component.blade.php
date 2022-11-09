@@ -9,29 +9,29 @@
             <h5 class="text-xl font-medium text-gray-900 ">Registrar una Persona</h5>
             <div>
                 <label for="nombres" class="block mb-2 text-sm font-medium text-gray-900 ">Nombre de la Persona:</label>
-                <input type="text" wire:model='nombres' id="nombres" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Nombres.." required="">
+                <input type="text" wire:model='nombres' id="nombres" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Nombres..." required="">
             </div>
 
             <div>
                 <label for="telefono" class="block mb-2 text-sm font-medium text-gray-900 ">Apellidos de la Persona:</label>
-                <input type="text" wire:model='apellidos' id="apellidos" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="apellidos.." required="">
+                <input type="text" wire:model='apellidos' id="apellidos" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="apellidos..." required="">
             </div>
             <div>
               <label for="telefono" class="block mb-2 text-sm font-medium text-gray-900 ">Telefono: </label>
-              <input type="number" wire:model='telefono' id="telefono" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="telefono.." required="">
+              <input type="number" wire:model='telefono' id="telefono" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="telefono..." required="">
           </div>
           <div>
             <label for="dpi" class="block mb-2 text-sm font-medium text-gray-900 ">DPI: </label>
-            <input type="number" wire:model='dpi' id="dpi" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="DPI.." required="">
+            <input type="number" wire:model='dpi' id="dpi" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="DPI..." required="">
           </div>
           <div>
             <label for="genero" class="block mb-2 text-sm font-medium text-gray-900 ">Genero: </label>
-            <input type="text" wire:model='genero' id="genero" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Genero.." required="">
+            <input type="text" wire:model='genero' id="genero" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Genero..." required="">
           </div>
 
           <div>
             <label for="fechaNacimiento" class="block mb-2 text-sm font-medium text-gray-900 ">Fecha Nacimiento: </label>
-            <input type="date" wire:model='fechaNacimiento' id="genero" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="telefono.." required="">
+            <input type="date" wire:model='fechaNacimiento' id="genero" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="telefono..." required="">
           </div>
 
          
