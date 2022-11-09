@@ -8,7 +8,7 @@
   
             <h5 class="text-xl font-medium text-gray-900 ">Registrar una comunidad</h5>
             <div>
-                <label for="comunidad" class="block mb-2 text-sm font-medium text-gray-900 ">Nombre de la Comunidad:</label>
+                <label for="comunidad" class="block mb-2 text-sm font-medium text-gray-900 ">Nombre de la Comunidad o Aldea:</label>
                 <input type="text" wire:model='comunidad' id="comunidad" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Nombre comunidad.." required="">
             </div>
             
