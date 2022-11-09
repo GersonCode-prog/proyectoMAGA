@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class CaderController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Mostrar una lista del recurso.
      *
      * @return \Illuminate\Http\Response
      */
@@ -19,7 +19,7 @@ class CaderController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Muestra el formulario para crear un nuevo recurso.
      *
      * @return \Illuminate\Http\Response
      */
@@ -29,7 +29,7 @@ class CaderController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Almacene un recurso recién creado en el almacenamiento BD.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -40,7 +40,7 @@ class CaderController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Muestra el recurso especificado.
      *
      * @param  \App\Models\Cader  $cader
      * @return \Illuminate\Http\Response
@@ -51,7 +51,7 @@ class CaderController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Muestra el formulario para editar el recurso especificado.
      *
      * @param  \App\Models\Cader  $cader
      * @return \Illuminate\Http\Response
@@ -62,7 +62,7 @@ class CaderController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Actualice el recurso especificado en el almacenamiento.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \App\Models\Cader  $cader
@@ -74,7 +74,7 @@ class CaderController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Elimina el recurso especificado del almacenamiento.
      *
      * @param  \App\Models\Cader  $cader
      * @return \Illuminate\Http\Response

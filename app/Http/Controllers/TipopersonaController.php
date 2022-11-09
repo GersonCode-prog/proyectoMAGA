@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class TipopersonaController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Mostrar una lista del recurso.
      *
      * @return \Illuminate\Http\Response
      */
@@ -20,7 +20,7 @@ class TipopersonaController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Muestra el formulario para crear un nuevo recurso.
      *
      * @return \Illuminate\Http\Response
      */
@@ -30,7 +30,7 @@ class TipopersonaController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Almacene un recurso recién creado en el almacenamiento.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -41,7 +41,7 @@ class TipopersonaController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Muestra el recurso especificado.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -52,7 +52,7 @@ class TipopersonaController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Muestra el formulario para editar el recurso especificado.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -63,7 +63,7 @@ class TipopersonaController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Actualice el recurso especificado en el almacenamiento.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -75,7 +75,7 @@ class TipopersonaController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Elimina el recurso especificado del almacenamiento.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
