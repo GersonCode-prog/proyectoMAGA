@@ -92,7 +92,7 @@
                   <button wire:click="Editar({{$p->id}})" class="bg-yellow-300 p-1 rounded-l" >Editar</button>
                 </div>
                 <div>
-                  <button wire:click="Eliminar({{$p->id}})" class="bg-red-200 text-white p-1 rounded-l ml-2" >Eliminar</button>
+                  <button wire:click="Eliminar({{$p->id}})" class="bg-red-600 text-white p-1 rounded-l ml-2" >Eliminar</button>
                 </div>
               </div>
             </td>
