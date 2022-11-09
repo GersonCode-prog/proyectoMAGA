@@ -64,13 +64,13 @@
       <table class=" text-sm  text-gray-500 dark:text-gray-400 w-auto border border-2 border-sky-500  rounded-lg   ">
         <thead class="text-xs text-gray-700 uppercase bg-teal-100 dark:bg-sky-700 dark:text-white rounded-lg w-auto">
           <tr>
-            <th scope="col" class="py-3 px-6">ID</th>
-            <th scope="col" class="py-3 px-6">NOMBRE COMPLETO</th>
-            <th scope="col" class="py-3 px-6">TELEFONO</th>
-            <th scope="col" class="py-3 px-6">DPI</th>
-            <th scope="col" class="py-3 px-6">GENERO</th>
-            <th scope="col" class="py-3 px-6">FECHA DE NACIMIENTO</th>
-            <th scope="col" class="py-3 px-6">EDITAR/ELIMINAR</th>
+            <th scope="col" class="py-3 px-2">ID</th>
+            <th scope="col" class="py-3 px-2">NOMBRE COMPLETO</th>
+            <th scope="col" class="py-3 px-2">TELEFONO</th>
+            <th scope="col" class="py-3 px-2">DPI</th>
+            <th scope="col" class="py-3 px-2">GENERO</th>
+            <th scope="col" class="py-3 px-2">FECHA DE NACIMIENTO</th>
+            <th scope="col" class="py-3 px-2">EDITAR/ELIMINAR</th>
           </tr>
         </thead>
         <tbody>
