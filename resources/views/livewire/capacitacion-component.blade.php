@@ -9,14 +9,14 @@
             <h5 class="text-xl font-medium text-gray-900 ">Registro de capacitaciones</h5>
             <div>
                 <label for="nombre" class="block mb-2 text-sm font-medium text-gray-900 ">Nombre:</label>
-                <input type="text" wire:model='nombre' id="nombre" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Nombre nombres.." required="">
+                <input type="text" wire:model='nombre' id="nombre" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Nombre de la capacitacion.." required="">
             </div>
 
           
 
           <div>
             <label for="fecha" class="block mb-2 text-sm font-medium text-gray-900 ">Fecha de capacitacion: </label>
-            <input type="date" wire:model='fecha' id="genero" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Nombre telefono.." required="">
+            <input type="date" wire:model='fecha' id="genero" class="pt-3 bg-sky-50 border border-sky-300 text-sky-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Fecha.." required="">
           </div>
 
          
